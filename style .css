@@ -1,0 +1,46 @@
+.background {
+    background-image: url("background.png");
+    background: size 100px;
+
+}
+
+.boy {
+
+    height: 280px;
+    margin-top: 295px;
+    position: absolute;
+
+}
+
+.score {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 1250px;
+    position: absolute;
+}
+
+.play {
+    color: #000000;
+    background-color: #1867fa;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.reload {
+    color: #000000;
+    background-color: #18fa9c;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+
+
+
+.flame {
+    font-size: 300px;
+    height: 120px;
+    margin-left: 900px;
+    margin-top: 450px;
+    position: absolute;
+}

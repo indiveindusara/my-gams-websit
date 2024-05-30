@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> game </title>
+    <link rel="stylesheet" href="style .css" />
+
+</head>
+
+<body onclick="
+  if (jumpWorker == 0) {
+  if (runWorker != 0) {  
+clearInterval(runWorker);
+runSound.pause();
+jump();
+jumpSound.play();
+  }
+  }" onkeyup="controller(event);" class="background " id="background">
+
+    <img src="run1.png" id="boy" class="boy" />
+
+    <div class="score" id="score">0</div>
+    <button onclick="
+
+    if (runWorker == 0) {
+    run();
+    runSound.play();
+    updatescore();
+    backgroundMove();
+    flameMarginLeft.forEach(createFlame);
+    }
+
+" class="play">play</button>
+    <button onclick="  window.location.reload();" class="reload">Refresh</button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
